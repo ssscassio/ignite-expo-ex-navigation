@@ -1,0 +1,33 @@
+{
+  "name": "ignite-expo-ex-navigation",
+  "description": "An Ignite CLI plugin for expo/ex-navigation",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Cássio Santos",
+    "email": "ssscassio@gmail.com",
+    "url": "https://github.com/ssscassio/ignite-expo-ex-navigation"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "ava",
+    "watch": "ava --watch",
+    "coverage": "nyc ava",
+    "shipit": "np"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "url": "https://example.com/path/to/your/plugin",
+  "repository": "ssscassio/ignite-expo-ex-navigation",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-eslint": "^7.1.1",
+    "np": "^2.12.0",
+    "nyc": "^10.1.2",
+    "sinon": "^1.17.7",
+    "standard": "^8.6.0"
+  }
+}
+
+
